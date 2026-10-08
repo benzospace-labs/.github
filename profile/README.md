@@ -2,27 +2,35 @@
 
 # BenzoSpace Labs
 
-Private USDC payments on Stellar
+_Private USDC payments on Stellar_
 
-[![source](https://img.shields.io/badge/source-benzo-2dd4bf?style=flat)](https://github.com/benzospace-labs/benzo)
-[![Stellar](https://img.shields.io/badge/Stellar-2dd4bf?style=flat-square&logo=stellar)](https://stellar.org)
+![Stellar](https://img.shields.io/badge/Stellar-ecosystem-0b0a14?style=flat&logo=stellar&logoColor=white)
+![Soroban](https://img.shields.io/badge/Soroban-smart%20contracts-0b0a14?style=flat)
+
+[![benzo](https://img.shields.io/badge/benzo-7D00FF?style=for-the-badge)](https://github.com/benzospace-labs/benzo)
 
 </div>
 
-## Overview
+## Stellar-native by design
+
+This project belongs to the **Stellar** ecosystem — value moves on-chain, and the public ledger means anyone can audit it.
+
+## What we do
 
 A normal payments wallet and business finance console — with zero-knowledge proofs keeping balances, transfers, payroll, invoices, and audit packets private by default.
 
-## Capabilities
+1. **Private pool** — Soroban contracts for the pool, verifier, nullifier set, and Merkle tree
+2. **Groth16 circuits** — consumer transfers, business payments, and credentials
+3. **Business console** — payroll, invoices, and audit packets that stay private by default
 
-| | |
-| --- | --- |
-| **Private pool** | Soroban contracts for the pool, verifier, nullifier set, and Merkle tree |
-| **Groth16 circuits** | consumer transfers, business payments, and credentials |
-| **Business console** | payroll, invoices, and audit packets that stay private by default |
+## Build
 
-## Repository
+`Soroban` · `Rust` · `Circom` · `Groth16` · `React`
 
-[benzospace-labs/benzo](https://github.com/benzospace-labs/benzo)
+## Stellar links
 
-Build: `Soroban` · `Rust` · `Circom` · `Groth16` · `React`
+`Stellar` · `Soroban` · [developers.stellar.org](https://developers.stellar.org)
+
+---
+
+Start here: [benzospace-labs/benzo](https://github.com/benzospace-labs/benzo)
